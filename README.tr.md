@@ -128,7 +128,7 @@ gösteriyor. Yine de çalışmayı ilerletecek biri bunları düzeltmeli.
 ## Yazar
 
 Pelinsu Eda Şentürk, Biyomühendislik, İstanbul Medeniyet Üniversitesi
-(danışman: Dr. Öğr. Üyesi Saliha Ece Acuner).
+
 
 ## Lisans
 
