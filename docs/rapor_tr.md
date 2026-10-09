@@ -1,6 +1,6 @@
 # DMHU-PNA kodonları ile Bennu amino asitleri arasında stereokimyasal tanıma: 960 çiftlik hesaplamalı tarama
 
-Pelinsu Eda Şentürk · Biyomühendislik, İstanbul Medeniyet Üniversitesi · Danışman: Dr. Öğr. Üyesi Saliha Ece Acuner
+Pelinsu Eda Şentürk · Biyomühendislik, İstanbul Medeniyet Üniversitesi 
 
 *[English version → report_en.md](report_en.md)*
 
