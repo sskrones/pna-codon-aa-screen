@@ -1,6 +1,6 @@
 # Stereochemical recognition between DMHU-PNA codons and Bennu amino acids: a 960-pair computational screen
 
-Pelinsu Eda Şentürk · Bioengineering, Istanbul Medeniyet University · Advisor: Asst. Prof. Dr. Saliha Ece Acuner
+Pelinsu Eda Şentürk · Bioengineering, Istanbul Medeniyet University 
 
 *[Türkçe sürüm → rapor_tr.md](rapor_tr.md)*
 
