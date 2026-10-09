@@ -1,0 +1,56 @@
+{
+  "n_pairs": 960,
+  "n_codons": 64,
+  "n_amino_acids": 15,
+  "vina_min": -3.509,
+  "vina_max": -1.757,
+  "vina_mean": -2.501296875,
+  "mmgbsa_min": -2.4773400000000056,
+  "mmgbsa_max": 0.4491800000000043,
+  "mmgbsa_frac_positive": 0.6072916666666667,
+  "mmgbsa_frac_abs_mean_lt_2sd": 1.0,
+  "mmgbsa_frac_abs_mean_gt_2sem": 0.55,
+  "mmgbsa_n_below_minus1": 20,
+  "variance_vina": {
+    "amino_acid": 0.4874716142716968,
+    "codon": 0.4343906623374471,
+    "interaction_residual": 0.07813772339085612,
+    "residual_sd_kcal_mol": 0.08762427059501851
+  },
+  "variance_mmgbsa": {
+    "amino_acid": 0.37130150309719495,
+    "codon": 0.09853188959533275,
+    "interaction_residual": 0.5301666073074722,
+    "residual_sd_kcal_mol": 0.24159850624235737
+  },
+  "spearman_aa_vina_vs_heavy_atoms": [
+    -0.9429950550082754,
+    1.403036220849004e-07
+  ],
+  "spearman_codon_vina_vs_nDAP": [
+    -0.7968494449885262,
+    3.396391016466127e-15
+  ],
+  "spearman_vina_vs_mmgbsa_all_pairs": [
+    -0.2272133041396241,
+    1.047214471842622e-12
+  ],
+  "spearman_mmgbsa_mean_vs_sd": [
+    -0.6895152202856122,
+    2.2775267937218378e-136
+  ],
+  "top_codons_vina": {
+    "DMH": -3.033,
+    "UDD": -2.963,
+    "DDD": -2.955,
+    "MDD": -2.865,
+    "HMD": -2.835
+  },
+  "bottom_codons_vina": {
+    "MMM": -2.228,
+    "HUU": -2.19,
+    "UUU": -2.17,
+    "UUM": -2.154,
+    "HUM": -2.147
+  }
+}

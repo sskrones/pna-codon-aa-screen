@@ -1,0 +1,39 @@
+REMARK  Name = AIB
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C4_7
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: C1_4  and  C2_5
+REMARK    4  A    between atoms: C1_4  and  C3_6
+REMARK    5  A    between atoms: C1_4  and  C4_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  AIB A   1      -0.619  -0.007   0.000  1.00  0.00    +0.156 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  AIB A   1      -1.140   0.730  -1.235  1.00  0.00    -0.090 C 
+ATOM      3  H1  AIB A   1      -2.235   0.707  -1.285  1.00  0.00    +0.053 H
+ATOM      4  H2  AIB A   1      -0.833   1.782  -1.230  1.00  0.00    +0.053 H
+ATOM      5  H3  AIB A   1      -0.750   0.285  -2.159  1.00  0.00    +0.053 H
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C3  AIB A   1      -1.121   0.647   1.288  1.00  0.00    -0.090 C 
+ATOM      7  H4  AIB A   1      -0.723   0.140   2.175  1.00  0.00    +0.053 H
+ATOM      8  H5  AIB A   1      -0.807   1.696   1.349  1.00  0.00    +0.053 H
+ATOM      9  H6  AIB A   1      -2.215   0.627   1.348  1.00  0.00    +0.053 H
+ENDBRANCH   1   6
+BRANCH   1  10
+ATOM     10  N1  AIB A   1      -1.129  -1.402  -0.042  1.00  0.00    -0.891 NA
+ATOM     11  H7  AIB A   1      -0.721  -1.915   0.742  1.00  0.00    +0.365 HD
+ATOM     12  H8  AIB A   1      -0.738  -1.861  -0.868  1.00  0.00    +0.365 HD
+ENDBRANCH   1  10
+BRANCH   1  14
+ATOM     13  O2  AIB A   1       1.630  -1.023  -0.024  1.00  0.00    -0.563 OA
+ATOM     14  C4  AIB A   1       0.922  -0.026  -0.010  1.00  0.00    +0.586 C 
+BRANCH  14  15
+ATOM     15  O1  AIB A   1       1.484   1.199   0.003  1.00  0.00    -0.601 OA
+ATOM     16  H9  AIB A   1       2.448   1.019  -0.004  1.00  0.00    +0.443 HD
+ENDBRANCH  14  15
+ENDBRANCH   1  14
+TORSDOF 5

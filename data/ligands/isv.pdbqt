@@ -1,0 +1,45 @@
+REMARK  Name = ISV
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C5_8
+REMARK    2  A    between atoms: N1_3  and  C1_4
+REMARK    3  A    between atoms: C1_4  and  C2_5
+REMARK    4  A    between atoms: C1_4  and  C3_6
+REMARK    5  A    between atoms: C1_4  and  C5_8
+REMARK    6  A    between atoms: C2_5  and  C4_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  ISV A   1       0.223   0.559   0.036  1.00  0.00    +0.151 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C3  ISV A   1      -0.132   1.882  -0.657  1.00  0.00    -0.136 C 
+ATOM      3  H3  ISV A   1      -1.020   2.344  -0.208  1.00  0.00    +0.052 H
+ATOM      4  H4  ISV A   1       0.692   2.602  -0.593  1.00  0.00    +0.052 H
+ATOM      5  H5  ISV A   1      -0.352   1.729  -1.720  1.00  0.00    +0.052 H
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  N1  ISV A   1       0.563   0.844   1.436  1.00  0.00    -0.902 NA
+ATOM      7  H9  ISV A   1      -0.190   1.373   1.875  1.00  0.00    +0.366 HD
+ATOM      8  H10 ISV A   1       1.386   1.444   1.475  1.00  0.00    +0.366 HD
+ENDBRANCH   1   6
+BRANCH   1   9
+ATOM      9  C2  ISV A   1       1.420  -0.113  -0.671  1.00  0.00    -0.061 C 
+ATOM     10  H1  ISV A   1       1.155  -0.344  -1.711  1.00  0.00    +0.051 H
+ATOM     11  H2  ISV A   1       2.262   0.590  -0.719  1.00  0.00    +0.051 H
+BRANCH   9  12
+ATOM     12  C4  ISV A   1       1.913  -1.399  -0.011  1.00  0.00    -0.088 C 
+ATOM     13  H6  ISV A   1       2.743  -1.818  -0.589  1.00  0.00    +0.040 H
+ATOM     14  H7  ISV A   1       1.122  -2.154   0.032  1.00  0.00    +0.040 H
+ATOM     15  H8  ISV A   1       2.276  -1.218   1.005  1.00  0.00    +0.040 H
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+BRANCH   1  17
+ATOM     16  O2  ISV A   1      -1.558  -0.798   1.040  1.00  0.00    -0.551 OA
+ATOM     17  C5  ISV A   1      -1.002  -0.352   0.045  1.00  0.00    +0.637 C 
+BRANCH  17  18
+ATOM     18  O1  ISV A   1      -1.426  -0.622  -1.218  1.00  0.00    -0.602 OA
+ATOM     19  H11 ISV A   1      -2.214  -1.207  -1.221  1.00  0.00    +0.444 HD
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+TORSDOF 6

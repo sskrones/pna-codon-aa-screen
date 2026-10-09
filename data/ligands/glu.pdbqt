@@ -1,0 +1,48 @@
+REMARK  Name = GLU
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C4_9
+REMARK    2  A    between atoms: O2_2  and  C5_10
+REMARK    3  A    between atoms: N1_5  and  C2_7
+REMARK    4  A    between atoms: C1_6  and  C2_7
+REMARK    5  A    between atoms: C1_6  and  C3_8
+REMARK    6  A    between atoms: C2_7  and  C4_9
+REMARK    7  A    between atoms: C3_8  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  GLU A   1      -0.146  -0.620  -0.744  1.00  0.00    -0.075 C 
+ATOM      2  H1  GLU A   1      -0.568  -1.584  -1.060  1.00  0.00    +0.080 H
+ATOM      3  H2  GLU A   1      -0.278   0.055  -1.599  1.00  0.00    +0.080 H
+ENDROOT
+BRANCH   1   4
+ATOM      4  C3  GLU A   1      -0.949  -0.088   0.447  1.00  0.00    -0.140 C 
+ATOM      5  H4  GLU A   1      -0.897  -0.783   1.291  1.00  0.00    +0.092 H
+ATOM      6  H5  GLU A   1      -0.559   0.886   0.761  1.00  0.00    +0.092 H
+BRANCH   4   8
+ATOM      7  O4  GLU A   1      -2.956  -0.252  -0.942  1.00  0.00    -0.550 OA
+ATOM      8  C5  GLU A   1      -2.399   0.087   0.088  1.00  0.00    +0.637 C 
+BRANCH   8   9
+ATOM      9  O2  GLU A   1      -3.095   0.683   1.077  1.00  0.00    -0.608 OA
+ATOM     10  H9  GLU A   1      -4.011   0.726   0.731  1.00  0.00    +0.446 HD
+ENDBRANCH   8   9
+ENDBRANCH   4   8
+ENDBRANCH   1   4
+BRANCH   1  11
+ATOM     11  C2  GLU A   1       1.350  -0.801  -0.459  1.00  0.00    +0.140 C 
+ATOM     12  H3  GLU A   1       1.837  -1.202  -1.356  1.00  0.00    +0.098 H
+BRANCH  11  13
+ATOM     13  N1  GLU A   1       1.542  -1.770   0.639  1.00  0.00    -0.898 NA
+ATOM     14  H6  GLU A   1       2.525  -1.745   0.923  1.00  0.00    +0.367 HD
+ATOM     15  H7  GLU A   1       1.363  -2.712   0.294  1.00  0.00    +0.367 HD
+ENDBRANCH  11  13
+BRANCH  11  17
+ATOM     16  O3  GLU A   1       3.033   0.637   0.623  1.00  0.00    -0.560 OA
+ATOM     17  C4  GLU A   1       2.083   0.511  -0.137  1.00  0.00    +0.582 C 
+BRANCH  17  18
+ATOM     18  O1  GLU A   1       1.663   1.564  -0.865  1.00  0.00    -0.596 OA
+ATOM     19  H8  GLU A   1       2.249   2.295  -0.576  1.00  0.00    +0.447 HD
+ENDBRANCH  17  18
+ENDBRANCH  11  17
+ENDBRANCH   1  11
+TORSDOF 7

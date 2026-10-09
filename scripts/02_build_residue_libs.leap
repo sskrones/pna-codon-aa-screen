@@ -1,0 +1,96 @@
+# Step 2 - turn capped monomers into chainable tleap residues (D.lib, M.lib, H.lib, U.lib).
+# Cap atoms are deleted, the cap charge is folded into the head N / tail C,
+# and the head/tail connection atoms are declared.
+# Run inside build/monomers:   tleap -f ../../scripts/02_build_residue_libs.leap
+#
+# KNOWN ISSUE (see README): caps are removed and no terminal groups are added
+# afterwards, so in every trimer the first backbone N and the last carbonyl C
+# have an open valence (2 bonds each).
+
+source leaprc.gaff2
+loadamberparams D-capped_monomer.frcmod
+loadamberparams M-capped_monomer.frcmod
+loadamberparams H-capped_monomer.frcmod
+loadamberparams U-capped_monomer.frcmod
+
+# ---- D (2,6-diaminopurine) ----
+d = loadmol2 D-capped_monomer.gaff2.mol2
+remove d d.1.C10
+remove d d.1.O2
+remove d d.1.C13
+remove d d.1.H18
+remove d d.1.H19
+remove d d.1.H20
+remove d d.1.C12
+remove d d.1.N8
+remove d d.1.H9
+remove d d.1.H14
+remove d d.1.H15
+remove d d.1.H16
+set d.1.N7 charge -0.499
+set d.1.C11 charge 0.603
+set d head d.1.N7
+set d tail d.1.C11
+saveoff d D.lib
+
+# ---- M (6-methyluracil) ----
+m = loadmol2 M-capped_monomer.gaff2.mol2
+remove m m.1.C2
+remove m m.1.O4
+remove m m.1.C13
+remove m m.1.H18
+remove m m.1.H19
+remove m m.1.H20
+remove m m.1.C12
+remove m m.1.N4
+remove m m.1.H
+remove m m.1.H14
+remove m m.1.H15
+remove m m.1.H16
+set m.1.N2 charge -0.505
+set m.1.C5 charge 0.617
+set m head m.1.N2
+set m tail m.1.C5
+saveoff m M.lib
+
+# ---- H (hypoxanthine) ----
+h = loadmol2 H-capped_monomer.gaff2.mol2
+remove h h.1.C2
+remove h h.1.O3
+remove h h.1.C13
+remove h h.1.H16
+remove h h.1.H17
+remove h h.1.H18
+remove h h.1.C12
+remove h h.1.N6
+remove h h.1.H
+remove h h.1.H12
+remove h h.1.H13
+remove h h.1.H14
+set h.1.N2 charge -0.481
+set h.1.C7 charge 0.580
+set h head h.1.N2
+set h tail h.1.C7
+saveoff h H.lib
+
+# ---- U (uracil) ----
+u = loadmol2 U-capped_monomer.gaff2.mol2
+remove u u.1.C2
+remove u u.1.O4
+remove u u.1.C12
+remove u u.1.H16
+remove u u.1.H17
+remove u u.1.H18
+remove u u.1.C11
+remove u u.1.N4
+remove u u.1.H
+remove u u.1.H12
+remove u u.1.H13
+remove u u.1.H14
+set u.1.N1 charge -0.503
+set u.1.C6 charge 0.590
+set u head u.1.N1
+set u tail u.1.C6
+saveoff u U.lib
+
+quit

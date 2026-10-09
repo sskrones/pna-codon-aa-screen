@@ -1,0 +1,9 @@
+Single point energy - GB solvent
+&cntrl
+ imin=1,
+ maxcyc=1,
+ ncyc=0,
+ ntb=0,
+ igb=5,
+ cut=999.0,
+/

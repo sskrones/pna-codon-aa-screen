@@ -1,0 +1,11 @@
+build/
+__pycache__/
+*.pyc
+*.nc
+*.rst7
+*.mdcrd
+mdinfo
+leap.log
+.ipynb_checkpoints/
+.DS_Store
+results/test*.csv

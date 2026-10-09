@@ -1,0 +1,46 @@
+REMARK  Name = DGN
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1_1  and  C4_9
+REMARK    2  A    between atoms: N1_4  and  C2_7
+REMARK    3  A    between atoms: C1_6  and  C2_7
+REMARK    4  A    between atoms: C1_6  and  C3_8
+REMARK    5  A    between atoms: C2_7  and  C4_9
+REMARK    6  A    between atoms: C3_8  and  C5_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C1  DGN A   1       0.143   0.557   0.743  1.00  0.00    -0.068 C 
+ATOM      2  H1  DGN A   1       0.565   1.495   1.130  1.00  0.00    +0.082 H
+ATOM      3  H2  DGN A   1       0.259  -0.180   1.549  1.00  0.00    +0.082 H
+ENDROOT
+BRANCH   1   4
+ATOM      4  C3  DGN A   1       0.966   0.108  -0.468  1.00  0.00    -0.162 C 
+ATOM      5  H4  DGN A   1       0.553  -0.815  -0.890  1.00  0.00    +0.072 H
+ATOM      6  H5  DGN A   1       0.954   0.880  -1.246  1.00  0.00    +0.072 H
+BRANCH   4   9
+ATOM      7  O3  DGN A   1       2.861  -0.128   1.038  1.00  0.00    -0.614 OA
+ATOM      8  N2  DGN A   1       3.204  -0.482  -1.161  1.00  0.00    -0.679 N 
+ATOM      9  C5  DGN A   1       2.409  -0.161  -0.100  1.00  0.00    +0.659 C 
+ATOM     10  H8  DGN A   1       2.896  -0.406  -2.120  1.00  0.00    +0.312 HD
+ATOM     11  H9  DGN A   1       4.188  -0.632  -0.976  1.00  0.00    +0.312 HD
+ENDBRANCH   4   9
+ENDBRANCH   1   4
+BRANCH   1  12
+ATOM     12  C2  DGN A   1      -1.349   0.758   0.459  1.00  0.00    +0.138 C 
+ATOM     13  H3  DGN A   1      -1.839   1.141   1.363  1.00  0.00    +0.098 H
+BRANCH  12  14
+ATOM     14  N1  DGN A   1      -1.569   1.758  -0.612  1.00  0.00    -0.897 NA
+ATOM     15  H6  DGN A   1      -2.570   1.957  -0.659  1.00  0.00    +0.364 HD
+ATOM     16  H7  DGN A   1      -1.370   1.312  -1.510  1.00  0.00    +0.364 HD
+ENDBRANCH  12  14
+BRANCH  12  18
+ATOM     17  O2  DGN A   1      -2.501  -0.859  -0.993  1.00  0.00    -0.566 OA
+ATOM     18  C4  DGN A   1      -2.036  -0.564   0.098  1.00  0.00    +0.584 C 
+BRANCH  18  19
+ATOM     19  O1  DGN A   1      -2.100  -1.429   1.127  1.00  0.00    -0.596 OA
+ATOM     20  H10 DGN A   1      -2.559  -2.214   0.762  1.00  0.00    +0.445 HD
+ENDBRANCH  18  19
+ENDBRANCH  12  18
+ENDBRANCH   1  12
+TORSDOF 6

@@ -1,0 +1,19 @@
+name: pna-screen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ambertools          # tleap, sander, cpptraj, antechamber, parmchk2
+  - openbabel
+  - rdkit
+  - parmed
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - openmm              # validation re-runs only
+  - swig
+  - boost-cpp
+  - pip
+  - pip:
+      - vina            # AutoDock Vina 1.2 Python bindings

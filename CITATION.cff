@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "PNA codon × Bennu amino acid screen"
+authors:
+  - family-names: "Şentürk"
+    given-names: "Pelinsu Eda"
+    affiliation: "Istanbul Medeniyet University"
+date-released: 2026-10-09
+license: MIT
