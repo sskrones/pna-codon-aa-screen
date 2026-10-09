@@ -48,6 +48,8 @@ geçerli; "tespit edilmedi" ile "imkânsız" aynı şey değil.
 | ![](figures/fig2_variance_decomposition.png) | ![](figures/fig3_aa_size_effect.png) |
 | ![](figures/fig5_mmgbsa_ranked.png) | ![](figures/fig7_validation_dissociation.png) |
 
+Tam rapor: [docs/rapor_tr.md](docs/rapor_tr.md) · [docs/report_en.md](docs/report_en.md)
+
 ## Klasör yapısı
 
 ```
@@ -58,6 +60,7 @@ data/
 results/
   mmgbsa_results_md.csv     ham tarama çıktısı, 960 satır
   tables/                   matrisler, özetler, varyans ayrıştırma, kiralite testleri, summary_stats.json
+docs/                       tam rapor: rapor_tr.md (Türkçe), report_en.md (English)
 figures/                    fig1–fig8 (PNG)
 scripts/                    01–07, sırasıyla pipeline (aşağıda)
 validation/                 seçili çiftlerin bağımsız OpenMM tekrarları + çizim scripti

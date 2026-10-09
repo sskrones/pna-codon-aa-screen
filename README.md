@@ -46,6 +46,8 @@ needed adaptor-like intermediates than direct triplet binding. This holds *withi
 | ![](figures/fig2_variance_decomposition.png) | ![](figures/fig3_aa_size_effect.png) |
 | ![](figures/fig5_mmgbsa_ranked.png) | ![](figures/fig7_validation_dissociation.png) |
 
+Full write-up: [docs/report_en.md](docs/report_en.md) · [docs/rapor_tr.md](docs/rapor_tr.md)
+
 ## Repository layout
 
 ```
@@ -56,6 +58,7 @@ data/
 results/
   mmgbsa_results_md.csv     raw screen output, 960 rows
   tables/                   matrices, summaries, variance decomposition, chirality tests, summary_stats.json
+docs/                       full report: rapor_tr.md (Türkçe), report_en.md (English)
 figures/                    fig1–fig8 (PNG)
 scripts/                    01–07, the pipeline in order (see below)
 validation/                 independent OpenMM re-runs of selected pairs + plotting script
