@@ -135,7 +135,7 @@ same behaviour), but anyone extending the work should fix them.
 ## Author
 
 Pelinsu Eda Şentürk, Bioengineering, Istanbul Medeniyet University
-(advisor: Asst. Prof. Dr. Saliha Ece Acuner).
+
 
 ## License
 
